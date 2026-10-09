@@ -8,6 +8,6 @@ while True:
     except ValueError:
          print("ошибка введите коректное значение:")
 
-c = (a % 2) !=0
-f = (b % 2) !=0
+c = (a % 2) != 0
+f = (b % 2) != 0
 print(c or f )
