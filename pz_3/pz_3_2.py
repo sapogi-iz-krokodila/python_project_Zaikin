@@ -27,11 +27,11 @@ while True:
 if number == 1:
     print(f"сложение: {number_a + number_b}" )
 
-if number == 2:
+elif number == 2:
     print(f"вычитание: {number_a - number_b}")
 
-if number == 3:
+elif number == 3:
     print(f"умножение: {number_a * number_b}")
 
-if number == 4:
+elif number == 4:
     print(f"деление: {number_a / number_b}")

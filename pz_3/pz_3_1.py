@@ -2,8 +2,8 @@
 из чисел A и B нечетное».'''
 while True:
     try:
-        a = int(input("Введите  значение: "))
-        b = int(input("Введите 23 значение: "))
+        a = int(input("Введите значение: "))
+        b = int(input("Введите значение: "))
         break
     except ValueError:
          print("ошибка введите коректное значение:")
